@@ -86,6 +86,7 @@ main{
     border-radius: 10px;
     padding: 120px 140px;
     text-align: center;
+    box-shadow: #757575 -3px -3px 6px 1px inset;;
 
 }
 .section_title{
@@ -96,6 +97,7 @@ main{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .info{
     display: flex;
@@ -109,4 +111,122 @@ main{
     background: #f86a0513;
     padding: 5px 6px;
     border-radius: 5px;
+}
+
+/* What i do  */
+.what{
+    margin-top: 130px;
+    padding: 120px 50px;
+}   
+.card_contener{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: 1px solid #FFF8F3;
+    border-radius: 8px;
+    background: #FFF8F3;
+    box-shadow: #757575 -3px -3px 6px 1px inset;;
+}
+.card_logo{
+    margin-bottom: 10px;
+    width: 35px;
+    height: auto;
+}
+.card_dec{
+    margin-top: 10px;
+    color: #757575;
+}
+
+/* summary/Resume */
+
+.sum_res{
+    margin-top: 130px;
+}
+
+.headtitle{
+    margin-top: 50px;
+    display: flex;
+}
+.name_title{
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume{
+    margin-left: 240px;
+}
+.contener_Card{
+    display: flex;
+}
+.card_part{
+    padding: 5px 15px;
+}
+.text_tile{
+    color: #000000;
+}
+.text_sub_title{
+    margin-top: 10px;
+    color: #424141;
+}
+.text_dec{
+    margin-top: 10px;
+    color: #757575;
+    font-size: 14px;
+}
+hr{
+    margin-top: 15px;
+}
+
+.btn_cv{
+    text-align: center;
+    margin-top: 35px;
+}
+.footer_contener{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFF8F3;
+    padding: 100px 50px;
+}
+.contect_title{
+    margin-bottom: 30px;
+}
+.contect_dec{
+    color: #757575;
+    padding-right: 100px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.social_icon{
+    margin-top: 10px;
+    display: flex;
+}
+a{
+
+    margin-right: 20px;
+    color: #FD6E0A;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    font-size: 25px;
+}
+.input_name{
+    padding: 5px 15px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.input_email{
+    padding: 5px 15px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.input_message{
+    padding: 5px 15px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
 }
